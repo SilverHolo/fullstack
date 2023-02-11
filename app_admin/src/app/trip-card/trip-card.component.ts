@@ -10,9 +10,7 @@ import { Trip } from '../models/trip';
 export class TripCardComponent implements OnInit {
 
   @Input('trip') trip: any;
-  constructor(
-    private router: Router
-  ) { }
+  constructor(private router: Router) { }
 
   ngOnInit() {
   }
